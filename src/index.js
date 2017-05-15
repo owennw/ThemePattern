@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-import Welcome from './welcome'
+import Shell from './Shell/Shell'
+import Welcome from './Welcome/Welcome'
 
 ReactDom.render(
-  <Welcome />,
+  <Shell><Welcome /></Shell>,
   document.getElementById('root')
 )
