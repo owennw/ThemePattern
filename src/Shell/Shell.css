@@ -1,0 +1,24 @@
+@import 'theme'
+@import '../styles/variables'
+
+:root
+  --header-font-size: 20px
+  --header-height: 50px
+  --header-top-padding: calc((var(--header-height) - var(--header-font-size)) / 2)
+
+.header
+  background-color: var(--header-background-color)
+  color: var(--header-text-color)
+  width: 100%
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  height: calc(var(--header-height) - var(--header-top-padding))
+  padding-left: var(--gutter-left) 
+  padding-top: var(--header-top-padding)
+  font-size: var(--header-font-size)
+  font-family: var(--heading-font-family)
+
+.body
+  margin-top: calc(var(--header-height) + 50px)

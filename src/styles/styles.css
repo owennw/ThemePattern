@@ -1,0 +1,8 @@
+@import 'theme'
+@import './variables'
+
+body
+  background-color: var(--body-background-color)
+  color: var(--body-text-color)
+  margin: 0 var(--gutter-left)
+  font-family: var(--body-font-family)

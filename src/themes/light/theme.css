@@ -1,0 +1,11 @@
+@import './colors'
+
+:root
+  --header-background-color: var(--dark-grey)
+  --header-text-color: var(--white)
+  --heading-large-color: var(--dark-grey)
+  --body-text-color: var(--light-grey)
+  --body-background-color: var(--off-white)
+  --default-font-family: Arial, Helvetica, sans-serif
+  --heading-font-family: var(--default-font-family)
+  --body-font-family: Cambria, Georgia
